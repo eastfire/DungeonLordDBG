@@ -1,0 +1,7 @@
+.undead.skeleton {
+	background: url("../res/img/skeleton.gif");
+}
+
+,undead.skeleton-card {
+	background-image: url("../res/img/skeleton.gif");
+}

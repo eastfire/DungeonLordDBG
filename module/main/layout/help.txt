@@ -1,0 +1,12 @@
+<div id='help-dialog' style='position:absolute;left:0;top:0;width:1280px;height:720px;background:darkgrey;z-index:999;'>
+	<div class="slider-wrapper theme-default" style='position:absolute;left:100px;top:25px;width:1080px;height:607px;box-shadow:0 0 25px black'>
+		<div id="help-slider" class="nivoSlider">
+			<img src="module/main/res/image/help1.jpg" alt="" />
+			<img src="module/main/res/image/help2.jpg" alt="" />
+		</div>
+	</div>
+	<div id='close-help' style='position:absolute;left:0;top:0;width:64px;height:64px;background-image:url("module/main/res/image/exit.png");'></div>
+	<div style='position:absolute;left:40%;bottom:0'>
+		<input id='show-help-check' type='checkbox' style="height: 20px; width: 30px;"/><label style='font-size: 20px;'>启动时显示帮助</label>
+	</div>
+</div>

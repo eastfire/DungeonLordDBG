@@ -1,0 +1,23 @@
+define(function(require,exports,module){
+	var CardSprite = require("./CardSprite").CardSprite;
+	exports.PokerCardSprite = CardSprite.extend({
+		events:{
+			"click": "onSelected",
+		},
+		initClass:function(){
+			var SpriteModel = require("../model/PokerCardModel").PokerCardModel;
+			this.SpriteModel = SpriteModel;
+		},
+		initStyle:function(){
+			require.async("../../css/poker.css");
+		},
+		initLayout:function(){
+			this.$el.addClass("poker-card");
+			this.$el.css({'background-position':"-"+(71*(this.model.get("number")-1))+"px"+" -"+(96*this.model.get("type"))+"px", });
+		},
+		onSelected:function(){
+			this.model.set({selected:!this.model.get("selected")});
+		},
+	});
+})
+

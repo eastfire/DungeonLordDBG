@@ -1,0 +1,5 @@
+.poker-card {
+	background-image:url("../res/img/carddeck_tiled.png");
+	background-repeat:no-repeat;
+	position:absolute;
+}

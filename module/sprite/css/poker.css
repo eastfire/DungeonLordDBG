@@ -1,0 +1,9 @@
+.poker-card {
+	background-image:url("../res/img/carddeck_tiled.png");
+	background-repeat:no-repeat;
+}
+
+.hands-of-poker {
+	overflow: hidden;
+	z-index: 1000;
+}

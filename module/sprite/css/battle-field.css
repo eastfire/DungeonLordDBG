@@ -1,0 +1,12 @@
+.battle-field-block {
+	border-style: inset;
+	border-color: black;
+	background-color: white;
+	padding:2px;
+}
+
+.summon-field-block {
+	background-image: url("../res/img/summon-field.png");
+	background-size:100% 100%;
+
+}
